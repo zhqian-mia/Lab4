@@ -30,7 +30,7 @@ Below are the steps that we need to follow:
   * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit. 
   * Now, in the terminal, press the <up> button to repeat the last command `vim ListExamples.java`.  
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/vim%20after%20change.png?raw=true)
-**From the above image, we know that the modification are stored successfully.** 
+*From the above image, we know that the modification are stored successfully.* 
   * Enter `:q!<enter>` to exit without storing changes.  
     
 **Step 8, now let's run the test.**  
@@ -40,7 +40,7 @@ Below are the steps that we need to follow:
 *Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*  
     
 **Step 9, now let's commit and push the resulting change to our Github account.**  
-* when we are still in the directory of lab7, enter `git<space>status<enter>`. This command will allow us to see the current git status in the linux system. Thus we can see the the file ListExamples.java has been modified. Follow the instruction in the terminal to commit the change.
+* Since we are still in the directory of lab7, enter `git<space>status<enter>`. This command will allow us to see the current git status in the linux system. Thus we can see the the file ListExamples.java has been modified. Follow the instruction in the terminal to commit the change.
 * Enter `git<space>add<space>.<enter>`. This command is used in Git to stage all changes in the current directory and its subdirectories for the next commit.
 * Enter `ls<enter>`. I did this to check if I am still in the lab7 directory.
 * Enter `git<space>status<enter>`. Now from the terminal we can know that the modification has been commited successfully.  
@@ -52,7 +52,8 @@ Below are the steps that we need to follow:
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/ss2.png?raw=true)
 * Follow the instruction, we enter `git<space>push<enter>`. This command allow us to upload or send our local commits to the main. Now the terminal looks like this:
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20push%20successfully.png?raw=true)
-*Now we know that the changes are successfully commit and push to the main to my github account. To double check, this is what it looks like on the github website. It shows that the ListExamples.java was edited not long ago.*  
+*Now we know that the changes are successfully commit and push to the main to my github account. To double check, this is what it looks like on the github website.*   
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/ccc.png?raw=true)
+*It shows that the ListExamples.java was edited not long ago.*  
   
 **Now, we have successfully finished all step 4 to step 9.**
