@@ -11,7 +11,7 @@ Below are the steps that we need to follow:
 * Commit and push the resulting change to your Github account
 
 **Step 4, log into ieng6 account.**
-* Enter 'cs15lsp23@ieng6.ucsd.edu<enter>'. Then, enter password and press `<enter>`. Now we login to ieng6 account successfully. 
+* Enter `cs15lsp23@ieng6.ucsd.edu<enter>`. Then, enter password and press `<enter>`. Now we login to ieng6 account successfully. 
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/ieng6%20login%20page.png?raw=true)  
   
 **Step 5, now we want to clone the lab7 repository.** 
