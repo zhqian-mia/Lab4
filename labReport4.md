@@ -23,7 +23,7 @@ Below are the steps that we need to follow:
 ***  
 
 **Step 6, now let's run the test.sh file**  
-  * Since we are still outside of lab7. Enter `cd lab7<enter>`. Now, we are inside lab7 directory.
+  * Since we are still outside of lab7. Enter `cd<space>lab7<enter>`. Now, we are inside lab7 directory.
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/cd%20lab7.png?raw=true)
   * Enter `bash<space>test<tab><enter>`, the terminal will automatically finish the command for us. The full command should be `bash<space>test.sh<enter>`. 
  ![Image](https://github.com/zhqian-mia/Lab4/blob/main/bash%20fail.png?raw=true) 
