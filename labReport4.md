@@ -43,7 +43,7 @@ Below are the steps that we need to follow:
 * Enter `git<space>commit<space>-m<space>"lab7report"<enter>`. This allows us to commit the changes. The commit message I choose is `lab7report`. Now, the terminal now should look like this:
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20add%20..png?raw=true)  
 * Since we are still under the lab7 directory. Enter `pwd<enter>` in the terminal to get our current working directory, which is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`.  
-![Image](https://github.com/zhqian-mia/Lab4/blob/main/push%20main.png?raw=true)
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/ew.png?raw=true)
 * Enter `git<space>push<space>/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7<space>main<enter>`. This command allows us to push the commit to our github using the push command. The branch name is `main`, and the orgin is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`. The terminal now should look like this:  
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/update.png?raw=true)
   
