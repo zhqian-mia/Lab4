@@ -12,7 +12,7 @@ Below are the steps that we need to follow:
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/real%20login.png?raw=true)  
   
 **Step 5, now we want to clone the lab7 repository.** 
-* Enter `git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7.git<enter>`. Now we have cloned the lab7 repo successfully.  
+* Enter `git<space>clone<space>git@github.com:zhqian-mia/lab7.git<enter>`. Now we have cloned the lab7 repo successfully.  
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/real%20git%20clone.png?raw=true)  
   
 **Step 6, now let's run the test.sh file**
