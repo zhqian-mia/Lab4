@@ -32,11 +32,11 @@ Below are the steps that we need to follow:
 
 **Step 7, the above image shows that our code did not pass the test file, thus we need to debug.**    
 *Let's edit the code file ListExamples.java. Since we already know from the instruction that the bug is the index1 is used instead of index2 in the final loop in merge, things are much more easier.*
-  * Enter `vim Lis<tab>.java<enter>`. Now we are able to edit the ListExamples.java file. The terminal now looks like this:  
+  * Enter `vim<space>Lis<tab>.java<enter>`. Now we are able to edit the ListExamples.java file. The terminal now looks like this:  
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/before%20change%20vim.png?raw=true)
   * Enter `kklllllllxi2<esc>`. In here, `k` stands for going up, and `l` stands for going right, `x` is used to delete the integer 1, `i` is used to initiate the Insert mode in vim, `2` allow me to enter integer 2 after the letter `x` of the word `index`. Finally, I pressed `<esc>` to exit the Insert mode in vim.
   * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit.
-  * Now, press the <up> button to repeat the last command `vim Lis<tab>.java<enter>`.   
+  * Now, press the <up> button to repeat the command `vim<space>ListExamples.java<enter>`  
    
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/vim%20after%20change.png?raw=true)    
    
