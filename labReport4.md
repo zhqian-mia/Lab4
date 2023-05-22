@@ -25,7 +25,7 @@ Below are the steps that we need to follow:
 *Let's edit the code file ListExamples.java. Since we already know from the instruction that the bug is the index1 is used instead of index2 in the final loop in merge, things are much more easier.*
   * Enter `vim Lis<tab>.java<enter>`. Now we are able to edit the ListExamples.java file. The terminal now looks like this:  
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/after%20vim.png?raw=true)
-  * Enter `kklllllllxi2<esc>`. In here, `k` stands for <up>, and `l` stands for <right>, `x` is used to delete the integer 1, `i` is used to initiate the Insert mode in vim, `2` allow me to enter integer 2 after the letter `x` of the word `index`. Finally, I pressed <esc> to exit the Insert mode in vim.
+  * Enter `kklllllllxi2<esc>`. In here, `k` stands for going up, and `l` stands for going right, `x` is used to delete the integer 1, `i` is used to initiate the Insert mode in vim, `2` allow me to enter integer 2 after the letter `x` of the word `index`. Finally, I pressed `<esc>` to exit the Insert mode in vim.
   * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit. 
   * Now, in the terminal, press the <up> button to repeat the last command `vim ListExamples.java`.  
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/before%20vim.png?raw=true)
@@ -34,5 +34,6 @@ Below are the steps that we need to follow:
     
 **Step 8, now let's run the test.** 
   * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.
-![Image](https://github.com/zhqian-mia/Lab4/blob/main/pass%20test.png?raw=true)
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/pass%20test.png?raw=true)  
+    
 *Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*
