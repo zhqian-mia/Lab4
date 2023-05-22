@@ -1,7 +1,4 @@
-# Lab4  
-For each numbered step starting right after the timer (so steps 4-9), take a screenshot, and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>, write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
-
-
+# Lab Report 4 
 Below are the steps that we need to follow:  
 * Log into ieng6
 * Clone your fork of the repository from your Github account
@@ -35,12 +32,7 @@ Below are the steps that we need to follow:
 **From the above image, we know that the modification are stored successfully.** 
   * Enter `:q!<enter>` to exit without storing changes.
     
-**Step 8, now let's run the test. 
+**Step 8, now let's run the test.** 
   * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.
-![Image]()
-  
-
-
-kk l7 x i 2 esc
-:wq enter
-:q!
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/pass%20test.png?raw=true)
+*Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*
