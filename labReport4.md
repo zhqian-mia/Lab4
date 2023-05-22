@@ -36,4 +36,15 @@ Below are the steps that we need to follow:
   * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/pass%20test.png?raw=true)  
     
-*Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*
+*Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*  
+    
+**Step 9, now let's commit and push the resulting change to our Github account**
+* Enter `git<space>add<space>.<enter>` to stage all the changes i made. 
+* Enter `git<space>commit<space>-m<space>"lab7report"<enter>`. This allows us to commit the changes. The commit message I choose is `lab7report`. Now, the terminal now should look like this:
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20add%20..png?raw=true)  
+* Since we are still under the lab7 directory. Enter `pwd<enter>` in the terminal to get our current working directory, which is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`.  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/push%20main.png?raw=true)
+* Enter `git<space>push<space>/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7<space>main<enter>`. This command allows us to push the commit to our github using the push command. The branch name is `main`, and the orgin is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`. The terminal now should look like this:  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/update.png?raw=true)
+  
+**Now, we have successfully finished all step 4 to step 9.**
