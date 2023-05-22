@@ -45,7 +45,7 @@ Below are the steps that we need to follow:
 ***  
  
 **Step 8, now let's run the test.**  
-  * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.
+  * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.  
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/bash%20pass.png?raw=true)    
 *Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*  
  
