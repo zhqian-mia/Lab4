@@ -35,8 +35,9 @@ Below are the steps that we need to follow:
   * Enter `vim Lis<tab>.java<enter>`. Now we are able to edit the ListExamples.java file. The terminal now looks like this:  
   ![Image](https://github.com/zhqian-mia/Lab4/blob/main/before%20change%20vim.png?raw=true)
   * Enter `kklllllllxi2<esc>`. In here, `k` stands for going up, and `l` stands for going right, `x` is used to delete the integer 1, `i` is used to initiate the Insert mode in vim, `2` allow me to enter integer 2 after the letter `x` of the word `index`. Finally, I pressed `<esc>` to exit the Insert mode in vim.
-  * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit. Now, in the terminal, press the <up> button to repeat the last command `vim ListExamples.java`.  
- 
+  * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit.
+  * Now, press the <up> button to repeat the last command `vim<space>ListExamples.java`.   
+   
 ![Image](https://github.com/zhqian-mia/Lab4/blob/main/vim%20after%20change.png?raw=true)    
    
 *From the above image, we know that the modification are stored successfully.*   
