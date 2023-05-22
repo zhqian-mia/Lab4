@@ -9,7 +9,7 @@ Below are the steps that we need to follow:
 
 **Step 4, log into ieng6 account.**
 * Enter `ssh<space>cs15lsp23@ieng6.ucsd.edu<enter>`. Then, enter `<password>` and press `<enter>`. Now we login to ieng6 account successfully. 
-![Image]()  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/real%20login.png?raw=true)  
   
 **Step 5, now we want to clone the lab7 repository.** 
 * Enter `git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7.git<enter>`. Now we have cloned the lab7 repo successfully.  
