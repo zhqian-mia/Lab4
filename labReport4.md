@@ -13,7 +13,7 @@ Below are the steps that we need to follow:
   
 **Step 5, now we want to clone the lab7 repository.** 
 * Enter `git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7.git<enter>`. Now we have cloned the lab7 repo successfully.  
-![Image](https://github.com/zhqian-mia/Lab4/blob/main/ieng6%20login.png?raw=true)  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/real%20git%20clone.png?raw=true)  
   
 **Step 6, now let's run the test.sh file**
   * Enter `ls<enter>`, we are still outside of lab7. Enter `cd lab7<enter>`. Now, we are inside lab7 directory.
@@ -39,12 +39,11 @@ Below are the steps that we need to follow:
 *Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*  
     
 **Step 9, now let's commit and push the resulting change to our Github account**
-* Enter `git<space>add<space>.<enter>` to stage all the changes i made. 
-* Enter `git<space>commit<space>-m<space>"lab7report"<enter>`. This allows us to commit the changes. The commit message I choose is `lab7report`. Now, the terminal now should look like this:
-![Image]()  
-* Since we are still under the lab7 directory. Enter `pwd<enter>` in the terminal to get our current working directory, which is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`.  
-![Image]()
-* Enter `git<space>push<space>/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7<space>main<enter>`. This command allows us to push the commit to our github using the push command. The branch name is `main`, and the orgin is `/home/linux/ieng6/cs15lsp23/cs15lsp23se/lab7`. The terminal now should look like this:  
-![Image]()
+* when we are still in the directory of lab7, enter `git<space>status<enter>`. This command will allow us to see the current git status in the linux system. Thus we can see the the file ListExamples.java has been modified. Follow the instruction in the terminal to commit the change.
+* Enter `git<space>add<space>.<enter>`. 
+* Enter `ls<enter>`. I do this to check if i am still in the lab7 directory.
+* Enter `git<space>status<enter>`. Now from the terminal we can know that the modification has been commited successfully.
+*Below is a screenshot of the above three steps*
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20status.png?raw=true)
   
 **Now, we have successfully finished all step 4 to step 9.**
