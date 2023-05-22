@@ -42,8 +42,14 @@ Below are the steps that we need to follow:
 * when we are still in the directory of lab7, enter `git<space>status<enter>`. This command will allow us to see the current git status in the linux system. Thus we can see the the file ListExamples.java has been modified. Follow the instruction in the terminal to commit the change.
 * Enter `git<space>add<space>.<enter>`. 
 * Enter `ls<enter>`. I do this to check if i am still in the lab7 directory.
-* Enter `git<space>status<enter>`. Now from the terminal we can know that the modification has been commited successfully.
+* Enter `git<space>status<enter>`. Now from the terminal we can know that the modification has been commited successfully.  
 *Below is a screenshot of the above three steps*
-![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20status.png?raw=true)
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20status.png?raw=true)  
+* Enter `git<space>commit<space>-m"glass"<enter>`. This command allows us to commit the edit and name it with a message of your choice. I choose the word "glass".  
+* Enter `ls<enter>` to check if i am still inside the lab 7 directory. (This step is redundant, not really need to use it).  
+* Enter `git<space>status<enter>'. This command allow us to get a glance on the current status of git on our remote server. Right now from the terminal we can see that the changes we made previously have been commited successfully.  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/ss2.png?raw=true)
+* Follow the instruction, we enter `git<space>push<enter>`. Now the terminal looks like this:
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/git%20push%20successfully.png?raw=true)
   
 **Now, we have successfully finished all step 4 to step 9.**
