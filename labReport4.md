@@ -13,28 +13,28 @@ Below are the steps that we need to follow:
   
 **Step 5, now we want to clone the lab7 repository.** 
 * Enter `git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7.git<enter>`. Now we have cloned the lab7 repo successfully.  
-![Image]()  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/ieng6%20login.png?raw=true)  
   
 **Step 6, now let's run the test.sh file**
   * Enter `ls<enter>`, we are still outside of lab7. Enter `cd lab7<enter>`. Now, we are inside lab7 directory.
-  ![Image]()
+  ![Image](https://github.com/zhqian-mia/Lab4/blob/main/cd%20lab7.png?raw=true)
   * Enter `bash<space>test<tab><enter>`, the terminal will automatically finish the command for us. The full command should be `bash<space>test.sh<enter>`. 
- ![Image]()  
+ ![Image](https://github.com/zhqian-mia/Lab4/blob/main/bash%20fail.png?raw=true)  
   
 **Step 7, the above image shows that our code did not pass the test file, thus we need to debug.**  
 *Let's edit the code file ListExamples.java. Since we already know from the instruction that the bug is the index1 is used instead of index2 in the final loop in merge, things are much more easier.*
   * Enter `vim Lis<tab>.java<enter>`. Now we are able to edit the ListExamples.java file. The terminal now looks like this:  
-  ![Image]()
+  ![Image](https://github.com/zhqian-mia/Lab4/blob/main/before%20change%20vim.png?raw=true)
   * Enter `kklllllllxi2<esc>`. In here, `k` stands for going up, and `l` stands for going right, `x` is used to delete the integer 1, `i` is used to initiate the Insert mode in vim, `2` allow me to enter integer 2 after the letter `x` of the word `index`. Finally, I pressed `<esc>` to exit the Insert mode in vim.
   * Enter `:wq<enter>`. In here, `w` stands for save and `q` stands for exit. 
   * Now, in the terminal, press the <up> button to repeat the last command `vim ListExamples.java`.  
-  ![Image]()
+  ![Image](https://github.com/zhqian-mia/Lab4/blob/main/real%20login.png?raw=true)
 **From the above image, we know that the modification are stored successfully.** 
   * Enter `:q!<enter>` to exit without storing changes.
     
 **Step 8, now let's run the test.** 
   * Enter `bash<space>test.sh<enter>`. This command help us to run the test file. The terminal should look like this.
-![Image]()  
+![Image](https://github.com/zhqian-mia/Lab4/blob/main/bash%20pass.png?raw=true)  
     
 *Therefore we know that the bug is fixed now and the ListExamples.java file pass all the tests.*  
     
